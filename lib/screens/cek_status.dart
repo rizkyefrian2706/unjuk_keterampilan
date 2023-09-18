@@ -56,10 +56,9 @@ class _CekStatusState extends State<CekStatus> {
         body: Container(
           decoration: BoxDecoration(color: Colors.white),
           child: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(15),
             child: ListView(
-              shrinkWrap: true,
-              padding: EdgeInsets.all(15.0),
+              shrinkWrap: true, 
               children: <Widget>[
                 backBtn(),
                 Padding(
