@@ -1,16 +1,14 @@
 # Unjuk Keterampilan
 
-A new Flutter project.
+Pada unjuk Keterampilan kali ini saya mengambil referensi ui dari web xl store.
+Menu yang saya ambil yaitu cek status pesanan.
+Berikut video unjuk keterampilan yang sudah saya buat:
 
-## Getting Started
+https://github.com/rizkyefrian2706/unjuk_keterampilan/assets/74532222/2b3f01cf-0ff3-463b-adb3-9b77f681e8f5
 
-This project is a starting point for a Flutter application.
+untuk design uiny dapat dilihat dibawah ini :
+[referensi_ui.pdf](https://github.com/rizkyefrian2706/unjuk_keterampilan/files/12648205/referensi_ui.pdf)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+video dan referensi ui juga sudah saya masukan ke git difolder ui.
+Sekian unjuk keterampilan saya.
+Terimakasih.
