@@ -133,7 +133,7 @@ class HomeScreen extends StatelessWidget {
                                     ),
                                     const Padding(
                                       padding:
-                                          EdgeInsets.fromLTRB(0, 32, 0, 37),
+                                          EdgeInsets.fromLTRB(0, 32, 0, 26),
                                       child: Expanded(
                                           child: Text(
                                               'Sudah melakukan pesanan? Cek status pesananmu')),
