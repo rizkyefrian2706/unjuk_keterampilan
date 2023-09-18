@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           child: SizedBox(
                             width: 150,
-                            height: 200,
+                            height: 260,
                             child: Center(
                               child: Padding(
                                 padding: const EdgeInsets.all(10),
@@ -69,11 +69,12 @@ class HomeScreen extends StatelessWidget {
                                       ],
                                     ),
                                     const Padding(
-                                        padding:
-                                            EdgeInsets.fromLTRB(0, 20, 0, 0)),
-                                    const Expanded(
-                                        child: Text(
-                                            'Pesan sekarang dan tunggu kartu perdana sampai dirumah Anda')),
+                                      padding:
+                                          EdgeInsets.fromLTRB(0, 20, 0, 15),
+                                      child: Expanded(
+                                          child: Text(
+                                              'Pesan sekarang dan tunggu kartu perdana sampai dirumah Anda')),
+                                    ),
                                     const Divider(
                                       thickness: 1,
                                     ),
@@ -108,7 +109,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           child: SizedBox(
                             width: 150,
-                            height: 200,
+                            height: 260,
                             child: Center(
                               child: Padding(
                                 padding: const EdgeInsets.all(10),
@@ -131,11 +132,12 @@ class HomeScreen extends StatelessWidget {
                                       ],
                                     ),
                                     const Padding(
-                                        padding:
-                                            EdgeInsets.fromLTRB(0, 20, 0, 0)),
-                                    const Expanded(
-                                        child: Text(
-                                            'Sudah melakukan pesanan? Cek status pesananmu')),
+                                      padding:
+                                          EdgeInsets.fromLTRB(0, 32, 0, 37),
+                                      child: Expanded(
+                                          child: Text(
+                                              'Sudah melakukan pesanan? Cek status pesananmu')),
+                                    ),
                                     const Divider(
                                       thickness: 1,
                                     ),
@@ -171,18 +173,17 @@ class HomeScreen extends StatelessWidget {
                       child: SizedBox(
                         width: 310,
                         child: Padding(
-                          padding: EdgeInsets.all(10),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                            "Cara order starter pack",
-                            textAlign: TextAlign.left,
-                          ),
-                          Icon(Icons.arrow_drop_down)
-                            ],
-                          )
-                        ),
+                            padding: EdgeInsets.all(10),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Cara order starter pack",
+                                  textAlign: TextAlign.left,
+                                ),
+                                Icon(Icons.arrow_drop_down)
+                              ],
+                            )),
                       ),
                     ),
                   ],
@@ -194,7 +195,7 @@ class HomeScreen extends StatelessWidget {
         color: Color.fromRGBO(0, 210, 160, 1),
         child: SizedBox(
           width: 1500,
-          height: 55,
+          height: 60,
           child: Padding(
               padding: EdgeInsets.all(10),
               child: Column(
@@ -202,8 +203,7 @@ class HomeScreen extends StatelessWidget {
                   Text(
                     "Copyright @ 2023 XL Axiata",
                     textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.white),
+                    style: TextStyle(color: Colors.white),
                   ),
                   Text(
                     "Privacy Policy | Terms & Conditions",
